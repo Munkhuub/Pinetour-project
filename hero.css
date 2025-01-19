@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  width: calc(100vw - 240px);
+  position: fixed;
+  top: 30px;
+  left: 120px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  align-items: center;
+  gap: 24px;
+}
+header > img {
+  width: 101px;
+  height: 35px;
+}
+.header-sections {
+  display: flex;
+  gap: 24px;
+}
+.header-sections p {
+  width: 100px;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.en-button {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.hero {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.hero-content {
+  display: flex;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  flex-direction: column;
+}
+h2 {
+  font-size: 80px;
+  text-transform: uppercase;
+  opacity: 72%;
+}
+h1 {
+  font-size: 250px;
+  text-transform: uppercase;
+  opacity: 98%;
+}
+h3 {
+  font-size: 64px;
+  opacity: 80%;
+}
+.sub-hero {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 65px 120px 65px 120px;
+  position: relative;
+}
+.sub-hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+  flex: 1;
+  height: 370px;
+  border-radius: 40px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.image-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+  text-align: center;
+  position: absolute;
+  z-index: 5;
+  color: white;
+  font-size: 37px;
+  text-transform: uppercase;
+  margin-left: 22px;
+  margin-right: 22px;
+  text-shadow: #000000a6;
+}

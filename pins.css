@@ -1,0 +1,40 @@
+.pin1 img {
+  height: 34px;
+  width: 34px;
+  z-index: 15;
+  position: absolute;
+  left: 81%;
+  top: 52%;
+}
+.pin2 img {
+  height: 34px;
+  width: 34px;
+  z-index: 15;
+  position: absolute;
+  left: 66%;
+  top: 32%;
+}
+.pin3 img {
+  height: 34px;
+  width: 34px;
+  z-index: 15;
+  position: absolute;
+  left: 55%;
+  top: 48%;
+}
+.pin4 img {
+  height: 34px;
+  width: 34px;
+  z-index: 15;
+  position: absolute;
+  left: 65%;
+  top: 80%;
+}
+.pin5 img {
+  height: 34px;
+  width: 34px;
+  z-index: 15;
+  position: absolute;
+  left: 51%;
+  top: 23%;
+}
